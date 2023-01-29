@@ -14,7 +14,8 @@ export default function PostPage({
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{slug}</title>
+        {/* Note: You can also use title instead of slug */}
       </Head>
       <Link href='/' className='btn btn-back'>
         Go Back
