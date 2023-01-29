@@ -37,13 +37,29 @@ img {
 header {
   background: black;
   color: #fff;
-  padding: 5px;
   margin-bottom: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
+header h2 {
+  width: max-content;
+  padding: 5px;
+}
+
+header h2.home {
+  border-bottom: 2px solid #fff;
+}
+
 header a {
   color: rgb(217, 217, 217);
+}
+
+header a.home {
+  color: #fff;
+}
+
+header a.not-home {
+  color: rgb(191, 191, 191);
 }
 
 header h2 a:hover {
