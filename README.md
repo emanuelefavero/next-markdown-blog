@@ -38,6 +38,26 @@ cover_image: '/images/posts/my-new-post-cover-image.jpg'
 
 > Note: add a cover image in the `public/images/posts` directory and reference it in the front-matter
 
+## Test Static Site Generation
+
+- run the build command:
+
+```bash
+npm run build
+```
+
+- install serve:
+
+```bash
+npm install -g serve
+```
+
+- run the static site:
+
+```bash
+serve -s out -p 8000
+```
+
 ## Used Packages
 
 - [marked](https://www.npmjs.com/package/marked) - Markdown parser for creating Blog posts from markdown files
