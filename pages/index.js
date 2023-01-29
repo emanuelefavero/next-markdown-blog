@@ -12,11 +12,14 @@ export default function Home({ posts }) {
       <Head>
         <title>Next.js Blog - Home</title>
       </Head>
-      {posts.map((post, index) => (
-        <div key={index}>
-          <Post post={post} />
-        </div>
-      ))}
+
+      <div className='posts'>
+        {posts.map((post, index) => (
+          <div key={index}>
+            <Post post={post} />
+          </div>
+        ))}
+      </div>
     </>
   )
 }

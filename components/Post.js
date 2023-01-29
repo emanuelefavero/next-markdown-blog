@@ -1,6 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Post({ post }) {
   return (
@@ -10,7 +8,12 @@ export default function Post({ post }) {
       <div className='post-date'>Posted on {post.frontmatter.date}</div>
 
       <h3>{post.frontmatter.title}</h3>
-      <p>{post.frontmatter.excerpt}</p>
+      <p>
+        {
+          // truncate the post excerpt to 70 characters
+          post.frontmatter.excerpt.substring(0, 70) + '...'
+        }
+      </p>
 
       <Link href={`/blog/${post.slug}`} className='btn'>
         Read More
