@@ -1,10 +1,16 @@
 # Next.js Markdown Blog
 
-A Next.js markdown blog static site generator
+A Next.js markdown blog static site generator (SSG)
+
+> Note: Since it is a static generated, it is ultra fast and SEO friendly
 
 ## Live Demo
 
 - [https://next-markdown-blog-ivory.vercel.app/](https://next-markdown-blog-ivory.vercel.app/)
+
+#### Screenshot
+
+<img src="screenshot.png" alt="screenshot" width="300">
 
 ## How to use
 
