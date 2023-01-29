@@ -2,6 +2,10 @@
 
 A Next.js markdown blog static site generator
 
+## Live Demo
+
+- [https://next-markdown-blog-ivory.vercel.app/](https://next-markdown-blog-ivory.vercel.app/)
+
 ## How to use
 
 ### Installation
