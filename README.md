@@ -24,3 +24,7 @@ npm run dev
 
 - [marked](https://www.npmjs.com/package/marked) - Markdown parser for creating Blog posts from markdown files
 - [gray-matter](https://www.npmjs.com/package/gray-matter) - a front-matter parser for parsing metadata at the top of files
+
+## License
+
+- [MIT](LICENSE.md)
