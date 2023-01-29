@@ -165,6 +165,20 @@ ol {
   margin: 10px 0;
 }
 
+footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer a {
+  transition: 0.2s;
+  color: rgb(136, 136, 136);
+}
+
+footer a:hover {
+  color: #fff;
+}
+
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
