@@ -20,6 +20,24 @@ npm install
 npm run dev
 ```
 
+## How to create new posts
+
+- create a new markdown file in the `posts` directory
+- add the following front-matter to the top of the file:
+
+```markdown
+---
+title: 'My New Post'
+date: 'Jan 29 2023'
+excerpt: 'This is my new post'
+cover_image: '/images/posts/my-new-post-cover-image.jpg'
+---
+```
+
+- add the content of your post below the front-matter in markdown format
+
+> Note: add a cover image in the `public/images/posts` directory and reference it in the front-matter
+
 ## Used Packages
 
 - [marked](https://www.npmjs.com/package/marked) - Markdown parser for creating Blog posts from markdown files
