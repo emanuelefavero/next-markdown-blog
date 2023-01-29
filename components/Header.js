@@ -5,7 +5,10 @@ export default function Header() {
     <header>
       <div className='container'>
         <h2>
-          <Link href='/'>Dev Blog</Link>
+          <Link href='/'>
+            {'<'}
+            {'>'} Blog
+          </Link>
         </h2>
       </div>
     </header>
