@@ -2,7 +2,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import Image from 'next/image'
+import Post from '@/components/Post'
 import Head from 'next/head'
 
 export default function Home({ posts }) {
@@ -13,7 +13,7 @@ export default function Home({ posts }) {
       </Head>
       {posts.map((post, index) => (
         <div key={index}>
-          <h3>{post.frontmatter.title}</h3>
+          <Post post={post} />
         </div>
       ))}
     </>
@@ -43,8 +43,6 @@ export async function getStaticProps() {
       frontmatter,
     }
   })
-
-  // console.log(posts)
 
   return {
     props: {
