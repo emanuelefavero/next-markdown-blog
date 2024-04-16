@@ -2,7 +2,7 @@
 
 A Next.js markdown blog static site generator (SSG)
 
-> Note: Since it is a static generated, it is ultra fast and SEO friendly
+> Note: This project is built with the Next.js Pages Router, to see how to create a Markdown Blog with the Next.js App Router check the [next-markdown-blog-app-router](https://github.com/emanuelefavero/next-markdown-blog-app-router) repository
 
 ## Live Demo
 
